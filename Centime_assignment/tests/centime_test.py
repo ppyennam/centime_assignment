@@ -156,6 +156,8 @@ class TestAssignment:
                     for ele in web_elements:
                         text1 = ele.find_element(By.XPATH, 'ancestor::li/a/img').get_attribute('title')
                         print('%s was added to cart' % text1)
+                else:
+                    raise AssertionError('Product type is not found')
 
             except StaleElementReferenceException:
                 continue
