@@ -1,0 +1,17 @@
+new_registration:True
+email:yennampriyanka@gmail.com
+username:yennampriyanka@gmail.com
+password:Practice@159159
+add_product_type:HTML
+add_product_by_search:Selenium Ruby,7
+del_products:HTML5 Forms
+del_product_by_number:Selenium Ruby,3
+first_name:priya
+last_name:yennam
+phone_number:939863688
+company_name:company1
+street_address:road_no 5,sudharshannagar
+apartment:laxmi nivas
+city:Hyderabad
+postal_code:500039
+validate_address:Billing Address
