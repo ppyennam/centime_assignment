@@ -2,7 +2,7 @@ new_registration:True
 email:yennampriyanka@gmail.com
 username:yennampriyanka@gmail.com
 password:Practice@159159
-add_product_type:HTML
+add_product_type:JavaScript
 add_product_by_search:Selenium Ruby,7
 del_products:HTML5 Forms
 del_product_by_number:Selenium Ruby,3

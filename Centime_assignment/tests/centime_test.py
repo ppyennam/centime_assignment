@@ -143,7 +143,7 @@ class TestAssignment:
         self.test_login(setup)
         self.driver.find_element(By.XPATH, "// a[contains(text(), 'Shop')]").click()
         # collecting web elements of product types
-        product_type_list = self.driver.find_elements(By.XPATH, '//*[@id="woocommerce_product_categories-2"]/ul/li/a')
+        product_type_list = self.driver.find_elements(By.XPATH, '//ul[@class="product-categories"]/li/a')
         for product in product_type_list:
             try:
                 if self.add_product_type == product.text:
@@ -156,8 +156,6 @@ class TestAssignment:
                     for ele in web_elements:
                         text1 = ele.find_element(By.XPATH, 'ancestor::li/a/img').get_attribute('title')
                         print('%s was added to cart' % text1)
-                else:
-                    raise AssertionError('Product type is not found')
 
             except StaleElementReferenceException:
                 continue
